@@ -1,0 +1,71 @@
+class mantik
+    {
+       
+
+        
+        static void Main()
+        {
+            int a;
+            int b;
+            int c;
+
+
+            Console.WriteLine("lütfen a yı giriniz");
+            a = int.Parse(Console.ReadLine());
+            Console.WriteLine("lütfen b yi griniz");
+            b = int.Parse(Console.ReadLine());
+            Console.WriteLine("lütfen c yi giriniz");
+            c = int.Parse(Console.ReadLine());
+        
+            if(a==b)
+            {
+                Console.WriteLine("a eşittir b'ye");
+            }
+            else if(a!=b)
+            {
+                Console.WriteLine("a eşit dğeildir b'ye");
+            }
+            
+            if(a>b)
+            {
+                Console.WriteLine("a b den büyüktür");
+            }
+            else if(a<b)
+            {
+                Console.WriteLine("a b den küçüktür");
+            }
+
+            if(a<c)
+            {
+                Console.WriteLine("a küçüktür c den");
+            }
+            else if(a>c)
+            {
+                Console.WriteLine("a büyüktür c den");
+            }
+
+            if(a>b && a>c)
+            {
+                Console.WriteLine("a b den de c den de büyüktür");
+            }
+            else if(a<b && a<c)
+            {
+                Console.WriteLine("a b den de c dende kücüktür");
+            } 
+            
+            if(a==b && a==c && c==b)
+            {
+                Console.WriteLine("uc sayida birbirine esittir");
+            }
+            else if(a!=b && a!=c && c!=b)
+            {
+                Console.WriteLine("Uc sayida birbirine esit değildir");
+            }
+
+        
+        }
+
+
+    }
+
+}
